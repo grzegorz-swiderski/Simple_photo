@@ -1,0 +1,27 @@
+/*button-menu*/
+    
+.button-menu
+  border-radius: 50%
+  background: rgba(22,160,133, 0.4)
+  color: white
+  position: fixed
+  z-index: 1
+  left: 90%
+  top: 75%
+  cursor: pointer
+  transition: linear 0.2s
+  &:hover
+    background: rgba(25,74,64,1)
+    animation: jump 0.5s 3
+  i
+    font-size: 450%
+    padding: 4px
+		
+
+@keyframes jump
+  0%
+    transform: translate(0,0px)
+  50%
+    transform: translate(0,-30px)
+  100%
+    transform: translate(0,0px)    
