@@ -1374,14 +1374,14 @@ nav {
 
 @media (max-width: 374px) {
   .jumbotron {
-    height: 160vh; } }
+    height: 150vh; } }
 
 @media (max-width: 669px) and (orientation: landscape) {
   .button-menu {
     left: 90%;
     top: 80%; }
   .jumbotron {
-    height: 240vh; }
+    height: 250vh; }
   #design {
     padding-top: 2%; }
     #design .btn {
